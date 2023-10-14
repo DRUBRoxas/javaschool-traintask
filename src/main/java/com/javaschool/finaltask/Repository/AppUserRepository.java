@@ -1,10 +1,13 @@
 package com.javaschool.finaltask.Repository;
 
 import com.javaschool.finaltask.Entity.AppUser;
+import org.springframework.data.domain.Example;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
+
 @Transactional
 public interface AppUserRepository extends JpaRepository<AppUser, String> {
     //TODO
@@ -12,4 +15,6 @@ public interface AppUserRepository extends JpaRepository<AppUser, String> {
     AppUser findByEmail(String email);
 
     List<AppUser> findByRole(String role);
+
+    AppUser findOne(AppUser user);
 }

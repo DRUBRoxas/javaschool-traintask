@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 @Entity(name = "Seat")
 @Table(name = "seats", schema = "finaltask", indexes = {
-        @Index(name = "fk_seats_train1_idx", columnList = "train_train_number")
+        @Index(name = "fk_seats_train1_idx", columnList = "train_number")
 })
 public class Seat {
     private Integer id;
@@ -17,7 +17,7 @@ public class Seat {
 
     private Integer seatNumber;
 
-    private Train trainTrainNumber;
+    private Train trainNumber;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -37,9 +37,9 @@ public class Seat {
     }
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "train_train_number", nullable = false)
-    public Train getTrainTrainNumber() {
-        return trainTrainNumber;
+    @JoinColumn(name = "train_number", nullable = false)
+    public Train getTrainNumber() {
+        return trainNumber;
     }
 
 }

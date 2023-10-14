@@ -3,7 +3,7 @@
   <component name="JpaBuddyIdeaProjectConfig" migrateIndexesAndConstraints="true" reUseTableSchema="true" newRepositoryParent="org.springframework.data.jpa.repository.JpaRepository">
     <option name="defaultUnitInitialized" value="true" />
     <option name="renamerInitialized" value="true" />
-    <option name="reverseEngineeringLastDbConnectionId" value="7d3a41be-cc53-49d1-84c8-54385a127100__finaltask" />
+    <option name="reverseEngineeringLastDbConnectionId" value="279a27f5-a516-42b5-8b99-dc24d3f2cbd9__finaltask" />
     <option name="reLastEntityCreationPackage" value="src/main/java/com/javaschool/finaltask/Entity" />
   </component>
 </project>
