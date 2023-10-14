@@ -18,6 +18,16 @@ public class AppUser {
 
     private String role;
 
+    public AppUser(String email, String password, String role) {
+        this.email = email;
+        this.password = password;
+        this.role = role;
+    }
+
+    public AppUser() {
+
+    }
+
     @Id
     @Column(name = "email", nullable = false)
     public String getEmail() {
@@ -34,4 +44,8 @@ public class AppUser {
         return role;
     }
 
+    public String toString(){
+
+        return this.email;
+    }
 }
