@@ -1,12 +1,13 @@
-package com.javaschool.finaltask.Repository;
+package com.javaschool.finaltask.Domain.Schedule;
 
-import com.javaschool.finaltask.Entity.Schedule;
-import com.javaschool.finaltask.Entity.Station;
-import com.javaschool.finaltask.Entity.Train;
+import com.javaschool.finaltask.Domain.Station.Station;
+import com.javaschool.finaltask.Domain.Train.Train;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public interface ScheduleRepository extends JpaRepository<Schedule, Integer> {
     @Override
     List<Schedule> findAll();

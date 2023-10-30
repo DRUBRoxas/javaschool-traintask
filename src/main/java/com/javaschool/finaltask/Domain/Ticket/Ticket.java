@@ -1,5 +1,8 @@
-package com.javaschool.finaltask.Entity;
+package com.javaschool.finaltask.Domain.Ticket;
 
+import com.javaschool.finaltask.Domain.Passenger.Passenger;
+import com.javaschool.finaltask.Domain.Schedule.Schedule;
+import com.javaschool.finaltask.Domain.Seat.Seat;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

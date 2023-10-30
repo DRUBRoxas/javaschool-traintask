@@ -1,4 +1,4 @@
-package com.javaschool.finaltask.Entity;
+package com.javaschool.finaltask.Domain.AppUser;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

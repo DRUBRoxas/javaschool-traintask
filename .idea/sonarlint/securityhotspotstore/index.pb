@@ -23,3 +23,5 @@ u
 Esrc/main/java/com/javaschool/finaltask/Controller/MainController.java,3\7\377c257504e8b25db1ff5e8edff93ec7147948d7
 x
 Hsrc/main/java/com/javaschool/finaltask/Repository/AppUserRepository.java,a\c\ac99a431ade0be15a1942391ae5522928e09f0fe
+g
+7src/main/java/com/javaschool/finaltask/Entity/Seat.java,f\f\ff52695864739eb027a489670954c4c709b25a4c

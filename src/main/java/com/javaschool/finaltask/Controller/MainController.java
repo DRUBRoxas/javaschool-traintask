@@ -1,15 +1,13 @@
 package com.javaschool.finaltask.Controller;
 
-import com.javaschool.finaltask.Entity.AppUser;
-import com.javaschool.finaltask.Repository.AppUserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.javaschool.finaltask.Domain.AppUser.AppUser;
+import com.javaschool.finaltask.Domain.AppUser.AppUserRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping(path = "/demo")
 public class MainController {
-    @Autowired
     private AppUserRepository userRepository;
 
     @PostMapping(path="/add") // Map ONLY POST Requests

@@ -1,6 +1,5 @@
-package com.javaschool.finaltask.Repository;
+package com.javaschool.finaltask.Domain.Ticket;
 
-import com.javaschool.finaltask.Entity.Ticket;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

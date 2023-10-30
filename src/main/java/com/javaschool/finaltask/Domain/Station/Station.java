@@ -1,5 +1,6 @@
-package com.javaschool.finaltask.Entity;
+package com.javaschool.finaltask.Domain.Station;
 
+import com.javaschool.finaltask.Domain.Train.Train;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,6 +1,5 @@
-package com.javaschool.finaltask.Repository;
-import com.javaschool.finaltask.Entity.Station;
-import com.javaschool.finaltask.Entity.Train;
+package com.javaschool.finaltask.Domain.Train;
+import com.javaschool.finaltask.Domain.Station.Station;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

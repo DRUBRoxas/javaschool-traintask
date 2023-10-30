@@ -1,14 +1,12 @@
-package com.javaschool.finaltask.Repository;
+package com.javaschool.finaltask.Domain.AppUser;
 
-import com.javaschool.finaltask.Entity.AppUser;
-import org.springframework.data.domain.Example;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.Optional;
 
-@Transactional
+@Repository
 public interface AppUserRepository extends JpaRepository<AppUser, String> {
     //TODO
     // This repository is probably going to change when i create the security and login
@@ -17,4 +15,5 @@ public interface AppUserRepository extends JpaRepository<AppUser, String> {
     List<AppUser> findByRole(String role);
 
     AppUser findOne(AppUser user);
+
 }

@@ -1,5 +1,6 @@
-package com.javaschool.finaltask.Entity;
+package com.javaschool.finaltask.Domain.Passenger;
 
+import com.javaschool.finaltask.Domain.AppUser.AppUser;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

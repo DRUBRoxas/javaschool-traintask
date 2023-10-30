@@ -1,2 +1,11 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ô”»ó
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¨ÎÃ8ôƒÅñ²1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïà×†8õƒÅñ²1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ÊÄ±øÿÿÿÿ8õƒÅñ²1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ÊÄ±øÿÿÿÿ8öƒÅñ²1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¹ÈÐ8öƒÅñ²1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¹ÈÐ8÷ƒÅñ²1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¹ÈÐ8÷ƒÅñ²1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ô”»ó8ùƒÅñ²1
+O
+java:S1135"2Complete the task associated to this TODO comment.(…ïœ†8‚„Åñ²1
